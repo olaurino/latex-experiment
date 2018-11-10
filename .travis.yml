@@ -12,5 +12,6 @@ deploy:
   api_key:
     secure: P+IP5D06osjzD3fPQT+0pcggHgQ80JxAoRSnGUPO7MQvHg8ty18uK+yvTKTonQPnaS4oTy1e6h9LucX9P5nbd9oVmyzA4FoaaSzXzOaO2AiPUsxV6q3aK4mw29/gmuKR6yEr8fmVDs64WUS+g44uyrntrW3EmMkQl1tml7wduHdGQPaV+bPnWsSiVCwiALI1KttjzSYtvnJW0HPgMVbO6CGffxQRlDAW5QdwCrta9BqZboKkrE1GEe+F7pL+PGfz+o6xS3O8MxmnkuxZSBmbkb3xCsb/WRAXxUZ5GgLk472ojhAzXis0dAAwvlTZCXhdUZKQ5L+ObVCI0roFrMAxOLd/QIcDsiTZNmukf+4+h+ne/F52j4Za40ZkB6VXPjr+zPBWavEFrVpVMK6TOCikCmNqSyNhSbfSbc/IA/3T7A+dvO17ExthT1Wc0Ql2QqrLvHaN577aUHveoS3hvc4eGn/MywAp/BfshP+gXopDqLxGLtAxZamNTbyDkjewMAEofrMs+bfNFUpGtPmpiP4a24kdLqqd2mp4gLn+WW3PpSANi03btqFh3JSou7OYhTB3Zwdrc7ZYl8CpgpGu56hL8YXO3SKgUl7K9W7fAQrJmx0UrR5a7Tcnr46S8fPJwtDjh56oq+CjmF85Xs/UdvstVT/hKJoUSAWksAeEgcX40iM=
   file: $TRAVIS_BUILD_DIR/main.pdf
+  skip_cleanup: true
   on:
     repo: olaurino/latex-experiment
